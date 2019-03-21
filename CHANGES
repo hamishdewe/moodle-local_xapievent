@@ -1,0 +1,17 @@
+moodle-local_xapievent
+===============================
+
+Changes
+-------
+
+2018111900
+  listener/listener_form.php
+    Enabled now uses advcheckbox
+  listener/edit.php
+    Redirect to listeners.php on save and cancel
+  template/edit.php
+    Redirect to templates.php on save and cancel
+  queue.php
+    Use language string for header
+  settings.php classes/observer.php observer::process_queue
+    Use rate limit setting to control size of batch 
