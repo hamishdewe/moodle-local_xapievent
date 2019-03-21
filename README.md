@@ -1,4 +1,4 @@
-Templates
+# XapiEvent Templates
 
 Query
 * must be formatted for use with $DB->get_record_sql or $DB->get_records_sql
